@@ -8,5 +8,13 @@ django = "*"
 
 [dev-packages]
 
+[scripts]
+a = "python manage.py createsuperuser"
+m = "python manage.py migrate"
+ms = "python manage.py makemigrations"
+s = "python manage.py runserver"
+t = "python manage.py test"
+
+
 [requires]
 python_version = "3.13"
